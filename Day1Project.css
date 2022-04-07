@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palegreen;
+}
+
+.container{
+    perspective: 520px;
+}
+
+.btn{
+    display: block;
+    margin: 40px 0;
+    width: 240px;
+    height: 80px;
+    border: none;   
+    background-color: aquamarine;
+    color: darkmagenta;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.btn1:hover{
+    transform: rotatex(15deg);
+    box-shadow: 0 15px 15px royalblue;
+}
+
+.btn2:hover{
+    transform: rotatex(-15deg);
+    box-shadow: 0 -15px 15px royalblue;
+}
+
+.btn3:hover{
+    transform: rotateY(-15deg);
+    box-shadow: -15px 0 15px royalblue;
+}
+
+.btn4:hover{
+    transform: rotateY(15deg);
+    box-shadow: 15px 0 15px royalblue;
+}
+
+
